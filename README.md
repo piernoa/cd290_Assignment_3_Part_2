@@ -1,0 +1,3 @@
+# cd290_Assignment_3_Part_2
+Log file located @
+    https://github.com/piernoa/cs290-Assignment3_Part_1/blob/master/log.txt

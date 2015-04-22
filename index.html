@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title >Awesome Ajax</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="app.css">
+  <script rel="text/javascript" src="app.js"></script>
+</head>
+<body>
+  <div class="search">
+    <h1>Search Github Gists!</h1>
+    <!-- <form method="get" action="https://api.github.com/gitst"> -->
+    <label > How many pages of results would you like? </label>
+    <input id="numPages" type="number" min="1" max="5" placeholder="Number of Pages">
+    <label > Which languages would you like to view gists for? </label>
+    <input type="checkbox" name="language" value="JSON" id="JSON">JSON
+    <input type="checkbox" name="language" value="Python" id="Python">Python
+    <input type="checkbox" name="language" value="Javascript" id="jvScript">Javascript
+    <input type="checkbox" name="language" value="SQL" id="SQL">SQL
+    <input type="submit" value="Search" onclick="getData()">
+  </div>
+  <hr>
+  <div class="results">
+    <h1>Results</h1>
+    <ul id="resultsUl">
+    </ul>
+  </div>
+  <div class="favorites">
+    <h1>Favorites</h1>
+  </div>
+</body>
+</html>

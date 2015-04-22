@@ -1,0 +1,91 @@
+body {
+  color: #333333;
+}
+
+input[type="submit"] {
+  display:block;
+  width:25%;
+  margin-top: 15px;
+  height: 25px;
+  color: #333333;
+  background-color: #eb6a5a;
+  border:none;
+
+}
+
+input[type="text"], input[type="number"] {
+  width: 25%;
+}
+
+label {
+  display:block;
+  margin-top: 15px;
+}
+
+.search {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.search input[type="submit"] {
+  width: 100%;
+  height: 25px;
+  border-radius: 5px;
+  background-color: #eb6a5a;
+  border: none;
+  color: white;
+  bottom:0;
+
+}
+
+.results {
+  width: 50%;
+  float:left;
+  border-right: 1px solid #909090;
+}
+.favorites {
+  width:49%;
+  float:right;
+
+}
+
+.favorites > h1, .results > h1 {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  width: 100%;
+  padding-left:0;
+}
+
+li {
+  border: 1px solid #909090;
+  border-radius: 5px;
+  margin: 15px;
+}
+
+li > a {
+  color: #eb6a5a;
+  font-weight: 600;
+  margin: 15px;
+}
+
+li > p {
+  margin: 15px;
+}
+
+li > button {
+  width: 100%;
+  height: 25px;
+  border-radius: 5px;
+  background-color: #eb6a5a;
+  border: none;
+  color: white;
+  bottom:0;
+}
+
+a {
+  text-decoration: none;
+}
